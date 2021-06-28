@@ -1,5 +1,5 @@
 const PointOfInterestModel = require('../models/pointOfInterestModel');
-const ImageModel = require('../models/ImageModel');
+const ImageModel = require('../models/imageModel');
 const PointOfInterestImageModel = require('../models/pointOfInterestImageModel');
 
 exports.get = async (req, res) => {

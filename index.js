@@ -22,6 +22,7 @@ Database.setConnection({
 });
 
 //Setup Routes
+app.get('/', (req, res) => res.send('Welcome to the Tourist API'));
 app.use('/api/poi', require('./routes/pointOfInterestRoutes'));
 app.use('/api/comment', require('./routes/pointOfInterestCommentRoutes'));
 app.use('/api/user', require('./routes/userRoutes'));
